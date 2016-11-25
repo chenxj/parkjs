@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="http://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" media="screen" title="no title">
+    <title>我的卡券</title>
+</head>
+<body id="container">
+   <div class="weui-cells__title">我的卡券</div>
+   <div class="weui-tab" style="margin-bottom: 0.78em;">
+      <div class="weui-navbar" >
+        <div class="weui-navbar__item">
+           <a class="weui-cell_access" href="#coupon">
+            未使用
+         </a>
+        </div>
+        <div class="weui-navbar__item">
+           <a class="weui-cell_access" href="javascript:;">
+               已使用
+            </a>
+        </div>
+        <div class="weui-navbar__item">
+           <a class="weui-cell_access" href="javascript:;">
+            已过期
+         </a>
+        </div>
+    </div>
+   <div class="weui-tab__panel">
+
+      <ul class="coupon ">
+          <li>
+            <!-- <a class="weui-cell weui-cell_access" href="javascript:;" style="display:inline-block"> -->
+               <div class="stamp stamp04 weui-cell weui-cell_access">
+                  <div class="par"><p>预约券</p><sub class="sign">￥</sub><span>10.00</span><div class="shop">停车场(通用)</div><p></p></div>
+                  <div class="copy">副券<p>2015-08-13<br>2016-08-13</p><a href="#">立即使用</a></div>
+                  <i class="ic"></i>
+              </div>
+            <!-- </a> -->
+          </li>
+          <li>
+             <div class="stamp stamp04 weui-cell weui-cell_access stamp-color-01">
+                <div class="par"><p>停车抵用券</p><sub class="sign">￥</sub><span>10.00</span><div class="shop">停车场(通用)</div><p></p></div>
+                <div class="copy">副券<p>2015-08-13<br>2016-08-13</p><a href="#">立即使用</a></div>
+                <i class="ic"></i>
+            </div>
+          </li>
+       </ul>
+
+   </div>
+   <div class="weui-cells__title"></div>
+
+</div>
+</body>
+<script type="text/javascript">
+   (function(){
+
+      var jslist = [
+         'js/jquery/jquery-2.1.3.min.js'
+
+      ];
+      var sj = '<script src="',
+      ej = '" charset="utf-8" ><\/script>';
+      document.write(sj + jslist.join(ej+sj) + ej);
+   })()
+</script>
+</html>

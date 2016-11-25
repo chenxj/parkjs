@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="http://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" media="screen" title="no title">
+    <title>购买</title>
+</head>
+<body id="container">
+   <div class="weui-cells__title">票券种类</div>
+   <div class="weui-cells weui-cells_radio">
+     <label class="weui-cell weui-check__label" for="x11">
+         <div class="weui-cell__bd">
+             <p>预约券</p>
+         </div>
+         <div class="weui-cell__ft">
+             <input type="radio" class="weui-check" name="radio1" id="x11">
+             <span class="weui-icon-checked"></span>
+         </div>
+     </label>
+     <label class="weui-cell weui-check__label" for="x12">
+
+         <div class="weui-cell__bd">
+             <p>停车抵用券</p>
+         </div>
+         <div class="weui-cell__ft">
+             <input type="radio" name="radio1" class="weui-check" id="x12" checked="checked">
+             <span class="weui-icon-checked"></span>
+         </div>
+     </label>
+  </div>
+  <div class="weui-cells__title">选择金额</div>
+  <ul class="coupon buylist">
+      <li>
+        <!-- <a class="weui-cell weui-cell_access" href="javascript:;" style="display:inline-block"> -->
+            <i class="weui-icon weui-icon-success"></i>
+           <div class="stamp stamp04 weui-cell weui-cell_access">
+             <div class="par"><p>预约券</p><sub class="sign">￥</sub><span>10.00</span><div class="shop">停车场(通用)</div><p></p></div>
+             <div class="copy"> <p>2015-08-13<br>2016-08-15</p></div>
+             <i class="ic"></i>
+          </div>
+        <!-- </a> -->
+      </li>
+      <li>
+         <i class="weui-icon weui-icon-circle"></i>
+        <div class="stamp stamp04 weui-cell weui-cell_access ">
+           <div class="par"><p>预约券</p><sub class="sign">￥</sub><span>10.00</span><div class="shop">停车场(通用)</div><p></p></div>
+           <div class="copy"> <p>2015-08-13<br>2016-08-19</p></div>
+           <i class="ic"></i>
+        </div>
+      </li>
+   </ul>
+   <div class="weui-tabbar">
+      <a href="javascript:;" style="width:100%" class="weui-btn weui-btn_primary">支付</a>
+   </div>
+</body>
+<script type="text/javascript">
+   (function(){
+
+      var jslist = [
+         'js/jquery/jquery-2.1.3.min.js'
+
+      ];
+      var sj = '<script src="',
+      ej = '" charset="utf-8" ><\/script>';
+      document.write(sj + jslist.join(ej+sj) + ej);
+   })()
+</script>
+</html>

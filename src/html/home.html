@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="http://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" media="screen" title="no title">
+    <title>停车系统</title>
+</head>
+<body id="container">
+   <div class="weui-cells weui-cells_access search_show none" id="search_show">
+  <div class="weui-cell">
+      <div class="weui-cell__bd weui-cell_primary">
+          <p>实时搜索文本</p>
+      </div>
+  </div>
+  </div>
+  <div class="weui-tab">
+  <div class="weui-tab__panel">
+       <div class="weui-search-bar" id="search_bar">
+           <form class="weui-search-bar__form">
+               <div class="weui-search-bar__box">
+                   <i class="weui-icon-search"></i>
+                   <input type="search" class="weui-search-bar__input" id="search_input" placeholder="搜索" />
+                   <a href="javascript:" class="weui-icon-clear" id="search_clear"></a>
+               </div>
+               <label for="search_input" class="weui-search-bar__label" id="search_text">
+                   <i class="weui-icon-search"></i>
+                   <span>搜索</span>
+               </label>
+           </form>
+           <a href="javascript:" class="weui-search-bar__cancel-btn" id="search_cancel">取消</a>
+       </div>
+       <div class="weui-navbar" style="top:auto;position:relative">
+            <div class="weui-navbar__item">
+               <a class="weui-cell_access" href="#coupon">
+                卡券
+             </a>
+            </div>
+            <div class="weui-navbar__item">
+               <a class="weui-cell_access" href="javascript:;">
+                   扫一扫
+                </a>
+            </div>
+            <div class="weui-navbar__item">
+               <a class="weui-cell_access" href="javascript:;">
+                充值
+             </a>
+            </div>
+            <div class="weui-navbar__item">
+               <a class="weui-cell_access" href="javascript:;">
+                我的钱包
+             </a>
+            </div>
+     </div>
+     <div class="weui-cells__title">最新优惠&活动</div>
+     <div class="weui-cell">
+        <div class="weui-cell__bd">
+           <img src="" width="100%" height="150px" alt="" />
+        </div>
+     </div>
+     <div class="weui-cells__title" id="copun">点击领用</div>
+     <ul class="coupon">
+        <li>
+           <a class="weui-cell weui-cell_access" href="javascript:;">
+              <div class="weui-flex">
+                 <p>
+                    15元停车抵用券
+                 </p>
+                 <div class="weui-cells__title">有效期:至2016年12月31日</div>
+              </div>
+           </a>
+        </li>
+        <li>
+           <a class="weui-cell weui-cell_access" href="javascript:;">
+              <div class="weui-flex">
+                 <p>
+                    10元停车抵用券
+                 </p>
+              </div>
+           </a>
+        </li>
+     </ul>
+  </div>
+  <div class="weui-tabbar">
+      <a href="javascript:;" class="weui-tabbar__item ">
+          <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+          <p class="weui-tabbar__label">首页</p>
+      </a>
+      <a href="javascript:;" class="weui-tabbar__item">
+          <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+          <p class="weui-tabbar__label">购物车</p>
+      </a>
+      <a href="javascript:;" class="weui-tabbar__item">
+          <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+          <p class="weui-tabbar__label">提醒</p>
+      </a>
+      <a href="javascript:;" class="weui-tabbar__item">
+          <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+          <p class="weui-tabbar__label">我的</p>
+      </a>
+  </div>
+  </div>      
+
+</body>
+<script type="text/javascript">
+   (function(){
+
+      var jslist = [
+         'js/jquery/jquery-2.1.3.min.js'
+
+      ];
+      var sj = '<script src="',
+      ej = '" charset="utf-8" ><\/script>';
+      document.write(sj + jslist.join(ej+sj) + ej);
+   })()
+</script>
+</html>
